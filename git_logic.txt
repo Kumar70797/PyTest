@@ -1,0 +1,8 @@
+# 1. Remove all cached files from Git tracking
+git rm -r --cached .
+
+# 2. Re-add everything (Git will apply the new .gitignore rules)
+git add .
+
+# 3. Commit the clean slate
+git commit -m "Clean up project tracking and apply comprehensive .gitignore"
